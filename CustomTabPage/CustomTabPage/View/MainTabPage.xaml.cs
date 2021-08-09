@@ -14,7 +14,7 @@ namespace CustomTabPage.View {
         public MainTabPage () {
             InitializeComponent();
 
-            BindingContext = new MainTabViewModel(slTeste);
+            BindingContext = new MainTabViewModel(StackTabbed);
         }
     }
 }
